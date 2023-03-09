@@ -1,0 +1,80 @@
+.content{
+	width: 320px;
+	height: 568px;
+	margin: 0 auto;
+	position: relative;
+	background: url(image/background_1.png);
+	overflow: hidden;
+}
+
+.cover{
+	display: block;
+	width: 320px;
+	height: 568px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(image/开始背景.png);
+	z-index: 2;
+}
+
+.star{
+	width: 100px;
+	height: 30px;
+	background-color:#000000 ;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 50px;
+	left: 110px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+.star:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.main{
+	height: 568px;
+	background: url(./image/background_1.png);
+}
+
+#my{
+	width: 66px;
+	height: 80px;
+	background: url(image/我的飞机.gif);
+	position: absolute;
+	top: 458px;
+	left: 127px;
+}
+
+.main img{
+	position: absolute;
+	/* 屏蔽鼠标事件 */
+	pointer-events: none;
+}
+
+.last{
+	width: 320px;
+	height: 568px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	text-align: center;
+}
+.last div{
+	color: #FFFFFF;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+.buff{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
